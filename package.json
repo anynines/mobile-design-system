@@ -1,6 +1,6 @@
 {
   "name": "@anynines/mobile-design-system",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "node_modules/expo/AppEntry.js",
   "files": [
     "dist"
@@ -46,5 +46,16 @@
     "babel-preset-expo": "^8.2.3",
     "concurrently": "5.2.0"
   },
-  "private": true
+  "private": false,
+  "description": "<p align=\"center\" style=\"display: flex; align-items: center; justify-content: center;\">   <img src=\"https://user-images.githubusercontent.com/61698985/95465564-99268d00-097b-11eb-8443-4e27d0252fae.png\" /> </p>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anynines/mobile-design-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anynines/mobile-design-system/issues"
+  },
+  "homepage": "https://github.com/anynines/mobile-design-system#readme"
 }
