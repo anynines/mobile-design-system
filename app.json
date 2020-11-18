@@ -2,6 +2,7 @@
   "expo": {
     "name": "mobile-design-system",
     "slug": "mobile-design-system",
+    "sdkVersion": "39.0.2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
