@@ -5,7 +5,6 @@
   ],
   "plugins": [
     "babel-plugin-styled-components",
-    "inline-json-import",
     "@babel/plugin-transform-runtime"
   ],
   "ignore": [
