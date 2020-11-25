@@ -1,9 +1,15 @@
 {
+  "name": "@anynines/mobile-design-system",
+  "version": "0.1.2",
   "main": "node_modules/expo/AppEntry.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "expo start",
     "build": "yarn rm:build && npm run build:js",
     "build:js": "babel --config-file ./_.babelrc src --out-dir dist --extensions \".js,.jsx\" --source-maps inline",
+    "rm:build": "rm -rf ./dist/",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -11,6 +17,7 @@
     "storybook": "expo start --ios"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
     "expo": "~38.0.2",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
@@ -25,6 +32,8 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addon-ondevice-actions": "^5.3.23",
@@ -35,9 +44,18 @@
     "babel-jest": "26.1.0",
     "babel-loader": "^8.1.0",
     "babel-preset-expo": "^8.2.3",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-react": "^7.8.3",
     "concurrently": "5.2.0"
   },
-  "private": true
+  "private": false,
+  "description": "<p align=\"center\" style=\"display: flex; align-items: center; justify-content: center;\">   <img src=\"https://user-images.githubusercontent.com/61698985/95465564-99268d00-097b-11eb-8443-4e27d0252fae.png\" /> </p>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anynines/mobile-design-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anynines/mobile-design-system/issues"
+  },
+  "homepage": "https://github.com/anynines/mobile-design-system#readme"
 }
